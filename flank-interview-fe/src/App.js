@@ -59,9 +59,6 @@ function App() {
         }
     };
     
-    
-    
-
     const isButtonSelected = (value) => {
         if (value === null) {
             return selected.includes(null);
@@ -77,7 +74,6 @@ function App() {
                 handleButtonClick={handleButtonClick}
                 isButtonSelected={isButtonSelected}
             />
-
 
             <ReactMarkdown rehypePlugins={[rehypeRaw]} className='markdown' children={objective} />
 
