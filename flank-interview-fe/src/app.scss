@@ -3,3 +3,23 @@
         white-space: pre-wrap;
     }
 }
+
+.options button {
+    border: 1px solid black; /* Border color */
+    background-color: white; /* Background color */
+    color: black; /* Text color */
+    border-radius: 10px; /* Rounded edges */
+    padding: 10px 20px; /* Padding to adjust button size */
+    margin: 5px; /* Margin between buttons */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.options button.selected {
+    background-color: #28a745; /* Selected button background color */
+    color: white; /* Selected button text color */
+}
+
+.options button.all-selected {
+    background-color: #28a745 !important; /* Special style for 'All' button when selected */
+    color: white !important;
+}
